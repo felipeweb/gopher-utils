@@ -1,6 +1,9 @@
+sudo: required
+
 language: go
 
 go:
   - 1.6
 
-install: go get -v -t
+install:
+  - go get -v -t
