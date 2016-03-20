@@ -1,7 +1,8 @@
 package gopher_utils
+
 import (
-	"strconv"
 	"fmt"
+	"strconv"
 )
 
 // Convert string to specify type.
@@ -140,4 +141,3 @@ func Int2HexStr(num int) (hex string) {
 	}
 	return hex
 }
-

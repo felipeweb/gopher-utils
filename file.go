@@ -1,6 +1,5 @@
 package gopher_utils
 
-
 import (
 	"fmt"
 	"io"

@@ -1,9 +1,9 @@
 package gopher_utils
 
 import (
-	"testing"
 	. "github.com/smartystreets/goconvey/convey"
 	"math"
+	"testing"
 )
 
 func Test_Pow(t *testing.T) {

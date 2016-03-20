@@ -1,9 +1,8 @@
 package gopher_utils
 
-
 import (
-	"testing"
 	. "github.com/smartystreets/goconvey/convey"
+	"testing"
 )
 
 func TestHexStr2int(t *testing.T) {

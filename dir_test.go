@@ -1,9 +1,9 @@
 package gopher_utils
 
 import (
+	. "github.com/smartystreets/goconvey/convey"
 	"os"
 	"testing"
-	. "github.com/smartystreets/goconvey/convey"
 )
 
 func TestIsDir(t *testing.T) {
