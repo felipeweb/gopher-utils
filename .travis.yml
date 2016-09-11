@@ -7,3 +7,6 @@ go:
 
 install:
   - go get -v -t ./...
+  
+script:
+  - go test -v -race ./...
