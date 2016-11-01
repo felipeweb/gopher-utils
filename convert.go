@@ -49,6 +49,12 @@ func (f StrTo) String() string {
 	return ""
 }
 
+// RuneToStr converts rune to string.
+// Do not use `ToStr` function for a rune, because Go will understand it as an int32, so the string will contain, erroneously, the char code.
+func RuneToStr(value rune) string {
+	return string(value)
+}
+
 // Convert any type to string.
 func ToStr(value interface{}, args ...int) (s string) {
 	switch v := value.(type) {
